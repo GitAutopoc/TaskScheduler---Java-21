@@ -1,0 +1,27 @@
+Problem Statement: Task Dependency Management System
+
+You are tasked with developing a task dependency management system to facilitate the execution of tasks in a specified order based on their dependencies. The system should allow users to define tasks and their dependencies, and then execute the tasks in the correct order.
+
+Requirements:
+
+Task Representation:
+Each task is represented by a unique name.
+Tasks may have dependencies on other tasks.
+Task Dependency Management:
+Users should be able to add tasks to the system.
+Users should be able to define dependencies between tasks.
+Task Execution:
+Tasks should be executed in the correct order based on their dependencies.
+If a task has dependencies, it should only be executed after all its dependencies have been completed.
+Error Handling:
+The system should handle errors gracefully, such as invalid task names or dependency definitions.
+Functionalities to Implement:
+
+Task Management:
+Implement a function to add tasks to the system.
+Implement a function to define dependencies between tasks.
+Task Execution:
+Develop a mechanism to execute tasks in the correct order based on their dependencies.
+Ensure that tasks with dependencies are executed only after their dependencies have been completed.
+Error Handling:
+Implement error handling mechanisms to handle cases such as invalid task names or dependency definitions.
